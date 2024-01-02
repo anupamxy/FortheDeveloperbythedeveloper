@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block title %}NEWS PAGE{% endblock title %}
+{% block body %}
+{% load static %}
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        li {
+            width: calc(50% - 10px); /* Two columns, adjust width as needed */
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        img {
+            -webkit-box-shadow:0px 0px 30px 7px rgba(234,255,46,0.88);
+-moz-box-shadow: 0px 0px 30px 7px rgba(234,255,46,0.88);
+box-shadow: 0px 0px 30px 7px rgba(234,255,46,0.88);
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-top: 10px;
+        }
+        @media (max-width: 768px) {
+            li {
+                width: 100%; /* On smaller screens, display in a single column */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Your News Paper</h1>
+    <ul>
+        {% for news_item in news_data %}
+            <li>
+                <strong>{{ news_item.title }}</strong><br>
+                <small>{{ news_item.published_at }}</small><br>
+                {{ news_item.description }}<br>
+                Author: {{ news_item.author }}<br>
+                <a href="{{ news_item.url }}">Link to Article</a><br>
+                <img src="{{ news_item.urltoimage }}" alt="Image">
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+{% endblock body %}
