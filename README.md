@@ -2,7 +2,6 @@
 
 Welcome to **For the Developer, By the Developer**, a comprehensive platform designed to enhance the daily lives of developers. This website offers a variety of features including daily planning, chatting with friends, storing images in a gallery, and viewing daily news. There are dedicated pages for both admins and developers.
 
----
 
 ## **Features**
 ![developerlogin](https://github.com/anupamxy/FortheDeveloperbythedeveloper/assets/123785384/8843e0df-1b78-45d9-ac2a-0e651e84ca37)
@@ -35,22 +34,18 @@ Welcome to **For the Developer, By the Developer**, a comprehensive platform des
 - **📊 Analytics:** Access detailed analytics to monitor user activity and website performance.
 - **🛠️ Control Features:** Create, update, and delete content as needed.
 
----
 
 ## **Skills Utilized**
 
 - **Frontend:**
   - HTML, CSS, JavaScript
-  - React.js
+  - python
   - Bootstrap
 
 - **Backend:**
-  - Node.js
-  - Express.js
+  -Django
 
-- **Database:**
-  - MongoDB
-
+-
 - **Other Technologies:**
   - Websockets (for real-time chat)
   - Cloud Storage (for image storage)
@@ -70,54 +65,12 @@ Welcome to **For the Developer, By the Developer**, a comprehensive platform des
    ```bash
    git clone <repository_url>
    cd <repository_folder>
-   ```
 
-2. **Install Node Modules**
-   ```bash
-   npm install
-   ```
-
-3. **Navigate to the Server Directory**
-   ```bash
-   cd server
-   ```
-
-4. **Start the Server**
-   ```bash
-   npm start
-   ```
-
-5. **Navigate to the Client Directory**
-   ```bash
-   cd ../client
-   ```
-
-6. **Start the Client**
-   ```bash
-   npm start
-   ```
-
-### **Running the Application**
-
-Once the server and client are running, you can access the application via your web browser at the specified port (usually `http://localhost:3000` or as configured).
-
----
 
 ## **Project Overview**
 
 For a complete overview of the "For the Developer, By the Developer" website, please refer to the project documentation or contact us for more information.
 
----
-
-## **Contact Us**
-
-Feel free to reach out for more information or any inquiries.
-
-📧 Email: support@forthedeveloper.com
-
-📞 Phone: +91 12345 67890
-
-🌐 Website: [www.forthedeveloper.com](http://www.forthedeveloper.com)
 
 ---
 
