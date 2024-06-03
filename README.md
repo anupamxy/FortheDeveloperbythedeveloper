@@ -44,8 +44,6 @@ Welcome to **For the Developer, By the Developer**, a comprehensive platform des
 
 - **Backend:**
   -Django
-
--
 - **Other Technologies:**
   - Websockets (for real-time chat)
   - Cloud Storage (for image storage)
